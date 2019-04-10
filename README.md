@@ -23,10 +23,12 @@ In order to enable the required notebook extensions, run:
 
 ### Dataset
 I use a [DBLP](https://dblp.uni-trier.de/) Computer Science citation dataset. If you want to use the same dataset, please download _DBLP-citation-Jan8.tar.bz2_ from [here]( https://aminer.org/lab-datasets/citation/). Extract it and place the _DBLP-citation-Jan8.txt_ file in the main folder.
-Next, open the _parser.ipynb_ notebook and run all the cells. It will produce _dblp_nodes.csv_ and _dblp_edges.csv_ files representing the graph structure of the dataset. The attached notebook persists only articles written by top 100 publishing authors and having no less than 10 citations. You can adjust these parameters in the notebook.
+Next, open the _parser.ipynb_ notebook and run all the cells. It will produce _dblp_nodes.csv_ and _dblp_edges.csv_ files representing the graph structure of the dataset. The attached notebook persists only articles written by top 100 publishing authors and having not fewer than 10 citations. You can adjust these parameters in the notebook.
 
-In order to use any other dataset, you should create your own parser and adjust the main scrip accordingly. 
+In order to use any other dataset, you should create your own parser and adjust the main bqplot notebook accordingly. 
 
+### Result
+![](evolNET.gif)
 
 #### TODO
 [-] dynamicly adjust node2vec embedding size according to the graph size
