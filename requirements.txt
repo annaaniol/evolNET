@@ -31,7 +31,7 @@ ipython=7.4.0=py37h39e3cac_0
 ipython_genutils=0.2.0=py37_0
 ipywidgets=7.4.2=py37_0
 jedi=0.13.3=py37_0
-jinja2=2.10=py37_0
+jinja2=2.10.1=py_0
 jmespath=0.9.4=py_0
 joblib=0.13.2=py_0
 jsonschema=3.0.1=py37_0
@@ -104,7 +104,7 @@ tqdm=4.31.1=py_0
 traitlets=4.3.2=py37_0
 traittypes=0.2.1=py_1
 umap-learn=0.3.8=py37_0
-urllib3=1.24.1=py37_1000
+urllib3=1.24.3=py37_0
 wcwidth=0.1.7=py37_0
 webencodings=0.5.1=py37_1
 wheel=0.33.1=py37_0
